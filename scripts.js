@@ -18,7 +18,7 @@ console.log(cem);
 
 // 3.Verilen ededin sade ve murekkeb oldugunu bildiren algoritm
 
-let eded = 31
+let eded = 30
 let sadedir = true   //burda ne vaxt true sertde ne vaxt false oldugunu heleki tam basa dusmemisem yoxlaya yoxlaya yaziram 
 
 if (eded < 1) {
@@ -38,6 +38,30 @@ if (eded < 1) {
         console.log("murekkebdir")
     }
 }
+
+
+// bu altdaki kod niye sehvdir ki????????????????????????????????????????????????????????????????????????????
+
+// let eded = 30
+// let sadedir = false   
+
+// if (eded < 1) {
+//     console.log("Düzgün daxil edin")
+// } else if (eded === 1) {
+//     console.log("1 nə sadə, nə də mürəkkəbdir.")
+// } else {
+//     for (let i = 2; i < eded; i++) {
+//         if (eded % i === 0 && eded/eded===1) {
+//             sadedir = true
+//             console.log("sade ededir");
+//             break
+
+//         }
+//     }
+//     if (!sadedir) {
+//         console.log("sade eded deyil")
+//     }
+// }
 
 
 
