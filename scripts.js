@@ -99,7 +99,7 @@ switch(ay) {
 
 // 2.Verilen ededin 2nin quvveti olub olmadigini bildiren algoritm
 
-let n = 21
+let n = 16
  if((n != 0) && ((n & (n - 1)) == 0)){  //search elemisem  basa dusdum daha duzgun qaydasini axtarmaga calisiram
     console.log("quvvetidir");
 }
